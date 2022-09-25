@@ -37,7 +37,7 @@ nav {
     @include media("<=654px") {
       flex-direction: column;
       @include media("<=phone") {
-        padding: 0 16px;
+        padding: 0 1rem;
       }
     }
     .nav-column {

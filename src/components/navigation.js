@@ -11,12 +11,12 @@ const Navigation = () => {
             <ul className='nav-links'>
               <li>
                 <NavLink to='/case-studies' exact>
-                  Case Studies
+                  Packages
                 </NavLink>
               </li>
               <li>
                 <NavLink to='/approach' exact>
-                  Approach
+                  Why Digital solutions
                 </NavLink>
               </li>
               <li>
@@ -38,7 +38,7 @@ const Navigation = () => {
                 <li className='nav-info-label'>Email</li>
                 <li>
                   <NavLink to='/contact' exact>
-                    Get in touch with us
+                    medalidridi@koyotechnologies.com
                   </NavLink>
                 </li>
                 <li>
@@ -49,17 +49,13 @@ const Navigation = () => {
               </ul>
               <ul className='nav-info'>
                 <li className='nav-info-label'>Headquarter</li>
-                <li>Route du Jura 49</li>
-                <li>1700 Fribourg</li>
-                <li>Switzerland</li>
+                <li>61 Cité essafa</li>
+                <li>Boumhal 2097</li>
+                <li>Tunisia</li>
               </ul>
               <ul className='nav-info'>
                 <li className='nav-info-label'>Phone</li>
-                <li>+41 (0) 79 510 28 70</li>
-              </ul>
-              <ul className='nav-info'>
-                <li className='nav-info-label'>Legal</li>
-                <li>Privacy & Cookies</li>
+                <li>+216 20 801 178</li>
               </ul>
             </div>
           </div>
