@@ -10,13 +10,13 @@ const Navigation = () => {
             <div className='nav-label'>Menu</div>
             <ul className='nav-links'>
               <li>
-                <NavLink to='/case-studies' exact>
+                <NavLink to='/packages' exact>
                   Packages
                 </NavLink>
               </li>
               <li>
-                <NavLink to='/approach' exact>
-                  Why Digital solutions
+                <NavLink to='/digital' exact>
+                  Why you should shift to Digital ?
                 </NavLink>
               </li>
               <li>

@@ -19,7 +19,101 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.About-subtitle{
+  text-align: center;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 10rem;
+  justify-content: center;
+  align-items: center;
+  @include media("<=1560px") {
+    
+    font-size: 2rem;
+    line-height: 1.2 ;
+  }
+}
+.title-about{
+  font-size: 10rem;
+  padding-top: 15rem;
+  padding-inline: 12rem ;
+  position: relative;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  letter-spacing: 12rem;
+  text-align: center;
+  @include media("<=1560px") {
+    padding-top: 7rem;
 
+    padding-inline: 0;
+    letter-spacing: 1rem;
+    font-size: 2rem;
+  }
+}
+.sub-subtitle-right{
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration:underline;
+  letter-spacing: 0.7rem;
+  @include media("<=1560px") {
+    letter-spacing: 0.5rem;
+    font-size: 1rem;
+  }
+}
+.text-sub-subtitle-right{
+  font-size: 1.2rem;
+  padding-left: 30rem;
+  display: flex;
+  position: relative;
+  text-align: end;
+  justify-content: flex-end;
+
+  @include media("<=1560px") {
+
+    font-size: 1rem;
+    padding-left: 0;
+    padding-top: 1rem;
+    text-align: center;
+    line-height: 1.7;
+
+  }
+
+}
+.sub-subtitle-left{
+  padding-top: 7rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration:underline;
+  letter-spacing: 0.7rem;
+  @include media("<=1560px") {
+    
+    letter-spacing: 0.5rem;
+    font-size: 1rem;
+  }
+}
+.text-sub-subtitle-left{
+  font-size: 1.2rem;
+  padding-right: 30rem;
+  display: flex;
+  position: relative;
+  text-align: start;
+  justify-content: flex-start;
+
+  @include media("<=1560px") {
+
+    font-size: 1rem;
+    padding-right: 0;
+    padding-top: 1rem;
+    text-align: center;
+    line-height: 1.7;
+
+  }
+
+}
 .container {
   width: 1560px;
   min-width: 1560px;

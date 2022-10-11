@@ -30,7 +30,7 @@ const Cases = () => {
             <div className='case' key={caseItem.id}>
               <div className='case-details'>
                 <span>{caseItem.subtitle}</span>
-                <h2>{caseItem.title}</h2>
+                <h1>{caseItem.title}</h1>
               </div>
               <div className='case-image'>
                 <img

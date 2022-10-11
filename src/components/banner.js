@@ -6,14 +6,14 @@ const Banner = () => {
     <section className='main'>
       <div className='container'>
         <div className='row'>
-          <h2>
+          <h1>
             <div className='line'>
               <span>Creative Digital Solutions is</span>
             </div>
             <div className='line'>
               <span>what we do.</span>
             </div>
-          </h2>
+          </h1>
           <div className='btn-row'>
             <a href='/'>
               More about us <RightArrow />

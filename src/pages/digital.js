@@ -1,15 +1,15 @@
 import React from "react";
 
-const CaseStudies = () => {
+const Digital = () => {
   return (
     <div className='page'>
       <div className='container'>
         <div className='row'>
-          <h3>This is the case studies page</h3>
+          <h3>This is the approach page</h3>
         </div>
       </div>
     </div>
   );
 };
 
-export default CaseStudies;
+export default Digital;

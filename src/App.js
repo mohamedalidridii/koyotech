@@ -5,16 +5,16 @@ import "./styles/App.scss";
 import Header from "./components/header";
 import Navigation from "./components/navigation";
 
-import CaseStudies from "./pages/caseStudies";
-import Approach from "./pages/approach";
 import Services from "./pages/services";
 import About from "./pages/about";
 import Home from "./pages/home";
+import Packages from "./pages/packages";
+import Digital from "./pages/digital";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
-  { path: "/case-studies", name: "caseStudies", Component: CaseStudies },
-  { path: "/approach", name: "approach", Component: Approach },
+  { path: "/packages", name: "packages", Component: Packages },
+  { path: "/digital", name: "digital", Component: Digital },
   { path: "/services", name: "services", Component: Services },
   { path: "/about-us", name: "about", Component: About }
 ];
