@@ -8,10 +8,10 @@ const Banner = () => {
         <div className='row'>
           <h1>
             <div className='line'>
-              <span>Creative Digital Solutions is</span>
+              <span>Digital Agency,</span>
             </div>
             <div className='line'>
-              <span>what we do.</span>
+              <span>based in Tunisia.</span>
             </div>
           </h1>
           <div className='btn-row'>
