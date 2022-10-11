@@ -25,13 +25,33 @@ html {
   display: flex;
   flex-direction: column;
   position: relative;
-  font-size: 10rem;
+  font-size: 6rem;
   justify-content: center;
   align-items: center;
   @include media("<=1560px") {
     
     font-size: 2rem;
     line-height: 1.2 ;
+  }
+  h1{
+    padding-top: 5rem;
+
+  }
+  p{
+    font-size: 2rem;
+    @include media("<=1560px") {
+    
+      font-size: 1rem;
+      line-height: 1.2 ;
+    }
+    
+  }
+  img{
+    width: 100%;
+    @include media("<=1560px") {
+    width: 300px;
+
+    }
   }
 }
 .title-about{
@@ -42,7 +62,7 @@ html {
   display: flex;
   font-weight: bold;
   justify-content: center;
-  letter-spacing: 12rem;
+  letter-spacing: 2rem;
   text-align: center;
   @include media("<=1560px") {
     padding-top: 7rem;
