@@ -19,6 +19,18 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.bold{
+  position:static;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.colorful{
+  background: linear-gradient(90deg, #00dbde, #fc00ff);
+  text-transform: uppercase;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
 .About-subtitle{
   text-align: center;
   padding: 0 2rem;
@@ -33,27 +45,62 @@ html {
     font-size: 2rem;
     line-height: 1.2 ;
   }
+  
   h1{
     padding-top: 5rem;
-
   }
   p{
     font-size: 2rem;
     @include media("<=1560px") {
-    
       font-size: 1rem;
       line-height: 1.2 ;
     }
     
   }
-  img{
-    width: 100%;
+  .image-about-subtitle{
+    width: 1000px;
+    
+    border-radius: 5px;
     @include media("<=1560px") {
-    width: 300px;
+      width: 300px;
+      border-radius: 5px;
+    
 
     }
   }
-}
+  .flex{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  @include media("<=1560px") {
+    
+
+    }
+  p{
+    text-align: center;
+    font-size: 5rem;
+    
+    @include media("<=1560px") {
+    
+      font-size: 2rem;
+      line-height: 1.2 ;
+    }
+    
+  }
+  
+  .image-about-subtitle{
+    width: 1000px;
+    border-radius: 5px;
+    @include media("<=1560px") {
+    width: 300px;
+    // border-radius: 50%;
+
+    }
+  }
+}}
+
 .title-about{
   font-size: 10rem;
   padding-top: 15rem;

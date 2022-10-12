@@ -10,11 +10,21 @@
     a {
       font-size: 1.2rem;
       letter-spacing: 0.5rem;
-      color: $black;
+      // color: $black;
       text-decoration: none;
       font-weight: 700;
+      background: linear-gradient(20deg, #42047e, #07f49e);
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
+    .a::after{
+      color: rgb(255, 255, 255);
+      mix-blend-mode: difference;
+  
+    }
+    
   }
+
   .nav-toggle {
     cursor: pointer;
     position: relative;
