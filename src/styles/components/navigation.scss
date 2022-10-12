@@ -7,7 +7,7 @@ nav {
   display: none;
   position: fixed;
   overflow: hidden;
-  background: $yellow;
+  background: linear-gradient(90deg, #f6c4ed, #a7bdea);
   a {
     position: relative;
     &:after {
