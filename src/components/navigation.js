@@ -15,11 +15,6 @@ const Navigation = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to='/digital' exact>
-                  Why you should shift to Digital ?
-                </NavLink>
-              </li>
-              <li>
                 <NavLink to='/services' exact>
                   Services
                 </NavLink>
