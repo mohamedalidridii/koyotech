@@ -10,8 +10,8 @@ const Navigation = () => {
             <div className='nav-label'>Menu</div>
             <ul className='nav-links'>
               <li>
-                <NavLink to='/packages' exact>
-                  Packages
+                <NavLink to='/projects' exact>
+                  Projects
                 </NavLink>
               </li>
               <li>

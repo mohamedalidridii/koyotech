@@ -5,7 +5,7 @@
 @import "./components/banner.scss";
 @import "./components/cases.scss";
 @import "./components/navigation.scss";
-
+@import "./packages.scss";
 body,
 html {
   visibility: hidden;
@@ -23,6 +23,7 @@ html {
   position:static;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .colorful{
   background: linear-gradient(90deg, #00dbde, #fc00ff);
@@ -31,18 +32,19 @@ html {
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
+
 .About-subtitle{
   text-align: center;
   padding: 0 2rem;
   display: flex;
   flex-direction: column;
   position: relative;
-  font-size: 6rem;
+  font-size: 3rem;
   justify-content: center;
   align-items: center;
   @include media("<=1560px") {
     
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.2 ;
   }
   
@@ -52,7 +54,7 @@ html {
   p{
     font-size: 2rem;
     @include media("<=1560px") {
-      font-size: 1rem;
+      font-size: 1.5rem;
       line-height: 1.2 ;
     }
     
@@ -80,11 +82,11 @@ html {
     }
   p{
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
     
     @include media("<=1560px") {
     
-      font-size: 2rem;
+      font-size: 1.5rem;
       line-height: 1.2 ;
     }
     

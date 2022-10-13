@@ -8,12 +8,12 @@ import Navigation from "./components/navigation";
 import Services from "./pages/services";
 import About from "./pages/about";
 import Home from "./pages/home";
-import Packages from "./pages/packages";
+import Projects from "./pages/projects";
 import Digital from "./pages/digital";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
-  { path: "/packages", name: "packages", Component: Packages },
+  { path: "/projects", name: "projects", Component: Projects },
   { path: "/digital", name: "digital", Component: Digital },
   { path: "/services", name: "services", Component: Services },
   { path: "/about-us", name: "about", Component: About }

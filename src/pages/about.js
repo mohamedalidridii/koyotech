@@ -7,7 +7,7 @@ const About = () => {
         
           
           <div className='About-subtitle'>
-          <h1>ABOUT</h1>
+          <h1 className="colorful">About us</h1>
           <div className="flex">
           
           
@@ -15,8 +15,7 @@ const About = () => {
           <img className="image-about-subtitle" src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""/>
           </div>
           <div>
-            
-            <h1 className="title-ourVision "><p className="colorful" >our</p>VISION</h1>
+            <h1 className="title-ourVision"><p  >our</p>VISION</h1>
             <h2 className="sub-subtitle-right">1. FROM START TO FINISH</h2>
             <p className="text-sub-subtitle-right">We provide value to our clients through design thinking and customized tech stacks. Our designers, full-stack developers,project managers and strategists are working in closely-knit teams throughout every project.</p>
             <img className="image-about-subtitle" src="https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""/>
