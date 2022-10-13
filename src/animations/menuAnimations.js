@@ -8,7 +8,7 @@ export const openMenu = width => {
   })
     .to("body", 0, { css: { overflow: "hidden" } })
     .to(".App", 1, {
-      y: width > 0 ? "100vh" : window.innerHeight,
+      y: width > 0 ? "70vh" : window.innerHeight,
       ease: "expo.inOut"
     })
     .to(".hamburger-menu span", 0.6, {

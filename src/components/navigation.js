@@ -37,9 +37,7 @@ const Navigation = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to='/audit' exact>
-                    Get a free audit
-                  </NavLink>
+                    Contact us for a free audit
                 </li>
               </ul>
               <ul className='nav-info'>

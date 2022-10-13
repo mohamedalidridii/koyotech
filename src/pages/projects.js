@@ -31,7 +31,7 @@ const Projects = () => {
   <section className="section--showcase">
     <header className="section__header">
       <span className="section__year">2020</span>
-      <h2 className="section__title section__title--medium">
+      <h2 className="section__title section__title--medium" style={{display:"flex", justifyContent:"center", gap:"1rem"}}>
         Selected <br /> Work
       </h2>
       <span className="section__year">now</span>
@@ -40,8 +40,9 @@ const Projects = () => {
       <div className="row__header">
       <div className="row__header-1">
         <span >2022</span>
-        <span className="bold">Back2Growth incubation program</span>
+        <span className="bold" style={{textAlign:"center", lineHeight:"1.2"}}>Back2Growth incubation program</span>
         <span >REACT / Threejs</span>
+        
         </div>
         <div>
         <span className="colorful">Website Design</span>
@@ -52,7 +53,7 @@ const Projects = () => {
       <div className="row__header">
       <div className="row__header-1">
         <span >2022</span>
-        <span className="bold">Back2Growth incubation program</span>
+        <span className="bold" style={{textAlign:"center", lineHeight:"1.2"}}>Back2Growth incubation program</span>
         <span>Brand identity</span>
         </div>
         <div>
@@ -64,7 +65,7 @@ const Projects = () => {
       <div className="row__header">
       <div className="row__header-1">
         <span >2022</span>
-        <span className="bold">Impact'Her incubation program</span>
+        <span className="bold" style={{textAlign:"center", lineHeight:"1.2"}}>Impact'Her incubation program</span>
         <span>Brand identity</span>
         </div>
         <div>
@@ -76,7 +77,7 @@ const Projects = () => {
       <div className="row__header">
       <div className="row__header-1">
         <span >2021</span>
-        <span className="bold">Brides's Secret Dress store</span>
+        <span className="bold" style={{textAlign:"center", lineHeight:"1.2"}}>Brides's Secret Dress store</span>
         <span >NEXTJS / REACT</span>
         </div>
         <div>
@@ -91,7 +92,7 @@ const Projects = () => {
       <div className="row__header">
       <div className="row__header-1">
         <span >2021</span>
-        <span className="bold">Dandelion by Maryem</span>
+        <span className="bold" style={{textAlign:"center", lineHeight:"1.2"}}>Dandelion by Maryem</span>
         <span >NEXTJS / REACT</span>
         </div>
         <div>

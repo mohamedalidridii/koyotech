@@ -51,11 +51,11 @@
 }
 .row__header-1{
 	
-    text-align: center;
+    // text-align: center;
     display: flex;
-    justify-content: center;
-	align-items: flex-start;
-    gap: 10vw;
+    justify-content: flex-start;
+	align-content: flex-start;
+    gap: 18vw;
 	
 }
 
@@ -136,7 +136,7 @@
 
 .section__title {
 	font-family: kudryashev-d-excontrast-sans, sans-serif;
-	font-weight: 300;
+	font-weight: 700;
 	font-size: clamp(2rem,17vw,12.5rem);
 	margin: 5vh 0 6vh;
 	line-height: 0.9;
@@ -159,9 +159,12 @@
 }
 
 .section__text--alt {
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
 	margin-top: auto;
 	color: var(--color-text-alt);
-	// padding-top: 2rem;
+	padding-top: 2rem;
 }
 
 .section__arrow {
@@ -329,6 +332,13 @@
 	aspect-ratio: 2.75;
 }
 @media screen and (max-width: 53em) {
+	.section__text {
+		padding-inline: 2rem;
+		max-width: 600px;
+		font-size: 1.2rem;
+		line-height: 1.7;
+		
+	}
 	.row__header{
 		font-size: 0.8rem;
 		text-align: left;
